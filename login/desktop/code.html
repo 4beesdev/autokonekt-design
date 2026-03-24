@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html class="light" lang="hr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script type='text/javascript' nonce='y4DAcEpZ5pE5mvP3fu26tA==' src='https://contribution.usercontent.google.com/3s3-8_qmVw4_GMyTelViwi4Fb7IRdPZEhvjoQlCiz5dWLMkb-yQcpEeu1Py_ajSSSo9DK-_1XcwuGaukCsMdCTHwcZz-mzaaP6Sz2WxBWgdpU53AbRHroB_4Vngjk4tzU2rzBOoIFv90KuCn3DAe4cVI3trM28U1gdFym3gCrQ5Lgd5UXt9jZsqgJ5ihxaAoXvvcJ0u0tOHtgSrE588DhrkJ4SWF9IbzY4QsBIxiqq5RIwf7ezV3MKuk4fu7GqZso2vVlyOGnVQy4NlUl4KYrbT6Fimz16oIMDA2PW1VgBY30V4Sr6AeOU46hrDQU56HJHEJQgGGQjUkI0qusfoGErw3slIQsQWdxctis1MSKDhVgay3C5NqS8dCTR-IM13Aj970WKtc1xqq39HgEjcffkhGk6tPnT0dxoSo9vYbQiWqN1_NLwex1NezATBlluuSJf61IRVaI2bOWS80pEKINBNH2yHxHbD5Z5v92jVn3sbb96myRdjIsJR7uKCPkdQairg7D7prCTImZSJU2WUkA9Edj2wTxLo3HnEtt2LYOtDRKNwaVk004UAABb05hVU_gvRMkv_uJbQWXNoHj1Utlt3gqjTaysnuztbAf-etXG-sRYnJrQxCzB301eZSESdmqb_Ij2JzdTcLI8TDrK3sIQ6gUdUPGXzznXPJ62ONgvfy0Xv-vvzmUBlzNxuvsX970VTpnGSu0RpIbmZRG4Pejdks5NNfP6nmSx7flSh1C7NaX_NugVrstKGzz5VtFJarBF-UaxTqo0qtjZyiB4xgFtSEvVZrstvbIFJ7yG0w'></script><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary": "#002130",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-container": "#5ca4c9",
+              "on-background": "#001f29",
+              "secondary-fixed": "#92fa7d",
+              "primary-fixed": "#bce9fe",
+              "on-primary-fixed-variant": "#1d4c5d",
+              "on-primary": "#ffffff",
+              "surface-container-high": "#c9eeff",
+              "secondary-container": "#90f87b",
+              "on-tertiary-fixed": "#001e2c",
+              "surface-dim": "#b3e1f5",
+              "outline": "#71787c",
+              "on-secondary": "#ffffff",
+              "surface-tint": "#376475",
+              "primary-container": "#003949",
+              "on-primary-container": "#76a3b6",
+              "inverse-on-surface": "#def4ff",
+              "secondary": "#006e02",
+              "on-secondary-container": "#007303",
+              "surface-bright": "#f3faff",
+              "on-secondary-fixed": "#002200",
+              "surface-container-low": "#e5f6ff",
+              "on-primary-container": "#76a3b6",
+              "inverse-surface": "#003544",
+              "outline-variant": "#c1c7cc",
+              "error-container": "#ffdad6",
+              "surface-variant": "#bce9fe",
+              "inverse-primary": "#a0cde1",
+              "background": "#f3faff",
+              "surface-container-highest": "#bce9fe",
+              "tertiary-fixed": "#c2e8ff",
+              "tertiary-container": "#00384d",
+              "primary-fixed-dim": "#a0cde1",
+              "on-error": "#ffffff",
+              "surface-container": "#d7f2ff",
+              "tertiary-fixed-dim": "#88cff6",
+              "secondary-fixed-dim": "#77dd64",
+              "on-tertiary-fixed-variant": "#004d67",
+              "on-surface": "#001f29",
+              "on-surface-variant": "#41484b",
+              "on-tertiary": "#ffffff",
+              "on-secondary-fixed-variant": "#005301",
+              "error": "#ba1a1a"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .clipped-corner-primary {
+            clip-path: polygon(0% 0%, 95% 0%, 100% 20%, 100% 100%, 5% 100%, 0% 80%);
+        }
+        .clipped-corner-btn {
+            clip-path: polygon(0% 0%, 92% 0%, 100% 35%, 100% 100%, 8% 100%, 0% 65%);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#00222d] dark:bg-[#001f29] shadow-[0_32px_48px_-4px_rgba(0,31,41,0.06)] clip-path-polygon-[0%_0%,100%_0%,100%_90%,95%_100%,0%_100%]">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-black text-[#72d860] tracking-tighter font-headline">Auto Konekt</span>
+<!-- Quick Selection Info from Image -->
+<div class="hidden lg:flex items-center gap-4 text-xs font-label uppercase tracking-widest text-on-primary-container">
+<div class="flex items-center gap-2 px-3 py-1 bg-primary-container/50 rounded-full">
+<span class="material-symbols-outlined text-[16px]">directions_car</span>
+<span>Odaberi vozilo</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1 bg-primary-container/50 rounded-full">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Srbija</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 text-[#c2e8ff] opacity-80 font-label text-sm font-bold uppercase tracking-widest cursor-pointer hover:text-white transition-all">
+<span class="material-symbols-outlined">notifications</span>
+</div>
+<div class="flex items-center gap-2 text-[#c2e8ff] opacity-80 font-label text-sm font-bold uppercase tracking-widest cursor-pointer hover:text-white transition-all">
+<span class="material-symbols-outlined">settings</span>
+</div>
+</div>
+</header>
+<main class="flex-grow flex items-center justify-center pt-24 pb-12 px-6">
+<div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<!-- Left Side: Editorial Content -->
+<div class="hidden md:block">
+<div class="relative group">
+<div class="absolute -inset-4 bg-secondary/10 clipped-corner-primary blur-2xl group-hover:bg-secondary/20 transition-all duration-700"></div>
+<div class="relative bg-primary p-12 clipped-corner-primary shadow-2xl overflow-hidden min-h-[500px] flex flex-col justify-end">
+<img class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 transition-all duration-1000" data-alt="Modern sports car in a high-tech dark garage with dramatic neon green lighting and reflective concrete floors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFFGe5f9fR5zLH6OdHlkG3eCwvhi5phmZ-sOHp8D3gEg0dbUQFfZM8tASdP3bjEQVZP8a1qCetQDMwaqXnmLbKU-IYXhQlQqsVAcuQ-8XkNp3fiJCBECqQYHZQE5-glr9tuT7rpQNgSUw4UoNF53PtNPX8TUz_YEoJoexTev6qApJff5JqqGW0NEHkICSm9o5D9eE3l6LKxhdqkeLY1vCt8tb8yes8IwaKjt8m3FfC_BONg-g55SIyTQk704BdOXUHD8Ol9gR--IF5"/>
+<div class="relative z-10">
+<h1 class="text-5xl font-black text-white leading-tight tracking-tighter mb-4 font-headline">PRECISION<br/><span class="text-[#72d860]">ENGINEERING</span><br/>AT YOUR FINGERTIPS</h1>
+<p class="text-tertiary-fixed text-lg font-medium max-w-sm opacity-80">Upravljajte svojim voznim parkom uz najviši nivo tehničke kontrole i dijagnostike u realnom vremenu.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Side: Login Form -->
+<div class="w-full max-w-md mx-auto">
+<div class="mb-10">
+<h2 class="text-3xl font-black text-primary tracking-tight font-headline mb-2 uppercase">Prijava</h2>
+<div class="h-1 w-12 bg-secondary"></div>
+<p class="text-on-surface-variant mt-4 font-medium">Dobrodošli nazad u Auto Konekt ekosistem.</p>
+</div>
+<form class="space-y-6">
+<!-- ID / Email Field -->
+<div class="space-y-2">
+<label class="block text-xs font-bold uppercase tracking-widest text-primary/60 ml-1">ID korisnika / Email adresa</label>
+<div class="relative group">
+<input class="w-full bg-surface-container-low border-none focus:ring-0 px-4 py-4 text-on-surface font-medium placeholder:text-outline/50 transition-all border-b-2 border-transparent focus:border-secondary" placeholder="Unesite vašu adresu" type="text"/>
+<span class="absolute right-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline/40">person</span>
+</div>
+</div>
+<!-- Password Field -->
+<div class="space-y-2">
+<div class="flex justify-between items-center px-1">
+<label class="block text-xs font-bold uppercase tracking-widest text-primary/60">Lozinka</label>
+<a class="text-[10px] font-bold text-secondary uppercase tracking-wider hover:underline" href="#">Zaboravljena lozinka?</a>
+</div>
+<div class="relative group">
+<input class="w-full bg-surface-container-low border-none focus:ring-0 px-4 py-4 text-on-surface font-medium placeholder:text-outline/50 transition-all border-b-2 border-transparent focus:border-secondary" placeholder="••••••••" type="password"/>
+<span class="absolute right-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline/40">lock</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="pt-4 space-y-4">
+<button class="w-full clipped-corner-btn bg-secondary text-white font-black py-5 text-sm uppercase tracking-[0.2em] shadow-lg shadow-secondary/20 hover:bg-[#005a02] transition-all transform active:scale-[0.98]" type="submit">
+                            PRIJAVI SE
+                        </button>
+<div class="relative flex items-center justify-center py-2">
+<div class="absolute inset-0 flex items-center"><div class="w-full border-t border-outline-variant/30"></div></div>
+<span class="relative bg-background px-4 text-[10px] font-bold text-outline uppercase tracking-[0.2em]">ili nastavi sa</span>
+</div>
+<button class="w-full clipped-corner-btn bg-white border border-outline-variant/50 text-primary font-bold py-4 text-sm uppercase tracking-widest flex items-center justify-center gap-3 hover:bg-surface-container-low transition-all" type="button">
+<img alt="Google" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFFG_Zc51iWR7SZqFRo1VuqYhWpZGIC8DuS2_Chizaay2-dValsbAglSXQQ9uqDYbZPb1P3nawa4LmgAhH0LDvc2KXUJQATH1c2qXheomrgPK1wMTVGMoRjIdh-jH6yRasR0qrDIyCKV8jfjVBWtGB9vFitxuld12wX54ibd8-t2Z66nO2hy8_laggObaK9TE_nYvj6DhOqlFM-tDFzbDdTCtP_Q3CM4R3VgGG1rZThEb2nduHqfCUQme14PBi5g0TvP4YO9trIcrE"/>
+                            Google nalog
+                        </button>
+</div>
+</form>
+<p class="mt-12 text-center text-sm font-medium text-on-surface-variant">
+                    Nemate nalog? <a class="text-secondary font-bold hover:underline" href="#">Registrujte se besplatno</a>
+</p>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-[#00222d] dark:bg-[#001f29] border-t border-[#c1c7cc]/15">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-lg font-bold text-[#c2e8ff] font-headline">Auto Konekt</span>
+<p class="font-[&#39;Manrope&#39;] text-[10px] font-medium uppercase tracking-widest text-[#2f7da0]">© 2024 Auto Konekt. Precision Engineered.</p>
+</div>
+<nav class="flex flex-wrap justify-center gap-8">
+<a class="font-[&#39;Manrope&#39;] text-sm font-medium uppercase tracking-widest text-[#2f7da0] hover:text-[#72d860] transition-colors focus:ring-1 ring-[#72d860]" href="#">Privacy Policy</a>
+<a class="font-[&#39;Manrope&#39;] text-sm font-medium uppercase tracking-widest text-[#2f7da0] hover:text-[#72d860] transition-colors focus:ring-1 ring-[#72d860]" href="#">Terms of Service</a>
+<a class="font-[&#39;Manrope&#39;] text-sm font-medium uppercase tracking-widest text-[#2f7da0] hover:text-[#72d860] transition-colors focus:ring-1 ring-[#72d860]" href="#">Technical Support</a>
+<a class="font-[&#39;Manrope&#39;] text-sm font-medium uppercase tracking-widest text-[#2f7da0] hover:text-[#72d860] transition-colors focus:ring-1 ring-[#72d860]" href="#">Diagnostic Guide</a>
+</nav>
+<div class="flex gap-4">
+<div class="w-8 h-8 flex items-center justify-center bg-primary-container text-[#72d860] rounded-full cursor-pointer hover:bg-secondary hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+<div class="w-8 h-8 flex items-center justify-center bg-primary-container text-[#72d860] rounded-full cursor-pointer hover:bg-secondary hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">help</span>
+</div>
+</div>
+</footer>
+</body></html>

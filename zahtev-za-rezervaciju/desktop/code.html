@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="light" lang="sr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Auto Konekt | Rezervacija Poslata</title>
+<script type='text/javascript' nonce='JM+mTNy5HcB1JuU5eNuQ/Q==' src='https://contribution.usercontent.google.com/93BsN0jK22sHq6g2zm9Tp1VTY0X1csT_97GzFVR9kpkU4Byvqx9_cqUjlVGShlkCm9Ye5HdBIZNv_wsjfsTTUBhfVAr_3PTSZ2PA8f53HROxeQUP31B8DqILcyg8GvDsZ_AiAG6S_ZydghzXZNw8Fk2NU52wFV3EVuWrnlhKQzIvQZYH7WG4dHBkKT6bjd6uYliuORukGqXS1HjSImdAWqMUv2hZ9KR5LCgOJB9G1hECto9mXCqZukamKxhXllrGbxDSEctAWocXwvNtynKl4r90u24mg8W-3fKQgDoaTVaIes0AkjhCVf-WR82k00F__C3KVXNOWHJPv7HJfeyE6--LJJpzxEqGoV2vC-FHSEjGYjCNCqXf4j0rIL_qJBhLOypdgClwqPr2OxTsETfGuWeAVnsnEFSifI-zvGocFx4-uvpBi64P_lmxabOT9Sqzedju1ZZ_SaMjv49aL8KpM0CAuxsFO5f8xVxmAj9-Nb8aEj-1bur3FZVTynC-_xbj2YFkFY2QV6MUAhOiuKlpW5hZ85gjcmvp5WiChN2XE4tobNPOSEAE6wFSbInjhg0i-r4BObBShmWHc0KJps9g0cPAYns9cHkcce8BZq4qj1qf90t4IjL1siv1CFkUbbwnlvfY4JFdtnhWmTG-nntpYN2xxeWk7N0B49bcjwwk_s9hF1eAiGoZLLbaZCJfu1rvSNqJ-zOkr01WrxZnN5PyztufOuK61PuP76B2tA8AiHQcX7sB007bpFOVYf10Ul1F6PPQi3a9Byzv2Vp1-OR-XiQCuGyQZYowIzR_CozY'></script><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-highest": "#bce9fe",
+              "surface-container-low": "#e5f6ff",
+              "on-tertiary": "#ffffff",
+              "on-secondary-container": "#007303",
+              "secondary-fixed": "#92fa7d",
+              "primary": "#00222d",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "on-primary-fixed": "#001f29",
+              "surface-container": "#d7f2ff",
+              "on-primary-container": "#76a3b6",
+              "surface-container-high": "#c9eeff",
+              "background": "#f3faff",
+              "tertiary": "#002130",
+              "on-surface": "#001f29",
+              "surface-dim": "#b3e1f5",
+              "on-secondary-fixed-variant": "#005301",
+              "surface": "#f3faff",
+              "secondary-fixed-dim": "#77dd64",
+              "outline-variant": "#c1c7cc",
+              "tertiary-fixed-dim": "#88cff6",
+              "on-surface-variant": "#41484b",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed": "#c2e8ff",
+              "on-error-container": "#93000a",
+              "surface-bright": "#f3faff",
+              "primary-fixed-dim": "#a0cde1",
+              "primary-container": "#003949",
+              "error-container": "#ffdad6",
+              "surface-tint": "#376475",
+              "on-error": "#ffffff",
+              "on-tertiary-container": "#5ca4c9",
+              "primary-fixed": "#bce9fe",
+              "secondary-container": "#90f87b",
+              "on-background": "#001f29",
+              "tertiary-container": "#00384d",
+              "on-tertiary-fixed-variant": "#004d67",
+              "inverse-on-surface": "#def4ff",
+              "surface-variant": "#bce9fe",
+              "on-tertiary-fixed": "#001e2c",
+              "inverse-primary": "#a0cde1",
+              "secondary": "#006e02",
+              "inverse-surface": "#003544",
+              "on-secondary-fixed": "#002200",
+              "on-secondary": "#ffffff",
+              "on-primary-fixed-variant": "#1d4c5d",
+              "outline": "#71787c"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .clipped-tr-bl {
+            clip-path: polygon(0% 0%, 95% 0%, 100% 15%, 100% 100%, 5% 100%, 0% 85%);
+        }
+        .clipped-button {
+            clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 100% 100%, 15% 100%, 0% 50%);
+        }
+        .clipped-card {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 92% 100%, 0% 100%);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-[#00222d] dark:bg-[#001f29] bg-gradient-to-r from-[#00222d] to-[#003949] shadow-none">
+<div class="flex items-center gap-4">
+<span class="text-xl font-black text-[#72d860] tracking-tighter font-[&#39;Manrope&#39;]">Auto Konekt</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<nav class="flex gap-6">
+<a class="text-[#c2e8ff] opacity-80 font-[&#39;Manrope&#39;] font-bold tracking-tight hover:bg-[#003949] transition-colors duration-200 px-3 py-1" href="#">Dashboard</a>
+<a class="text-[#72d860] font-bold border-b-2 border-[#72d860] font-[&#39;Manrope&#39;] tracking-tight px-3 py-1" href="#">Reservations</a>
+<a class="text-[#c2e8ff] opacity-80 font-[&#39;Manrope&#39;] font-bold tracking-tight hover:bg-[#003949] transition-colors duration-200 px-3 py-1" href="#">Garage</a>
+<a class="text-[#c2e8ff] opacity-80 font-[&#39;Manrope&#39;] font-bold tracking-tight hover:bg-[#003949] transition-colors duration-200 px-3 py-1" href="#">Settings</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 text-[#72d860]">
+<button class="material-symbols-outlined hover:bg-[#003949] p-2 rounded-full transition-colors">notifications</button>
+<button class="material-symbols-outlined hover:bg-[#003949] p-2 rounded-full transition-colors">account_circle</button>
+</div>
+</header>
+<main class="flex-grow pt-24 pb-16 px-6 max-w-7xl mx-auto w-full flex flex-col items-center">
+<!-- Hero Confirmation Section -->
+<section class="w-full text-center mb-12">
+<div class="inline-flex items-center justify-center w-20 h-20 bg-secondary-container text-on-secondary-container rounded-full mb-6">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: &#39;FILL&#39; 1;">check_circle</span>
+</div>
+<h1 class="text-4xl md:text-5xl font-black text-primary tracking-tighter uppercase mb-4">ZAHTEV ZA REZERVACIJU JE POSLAT</h1>
+<p class="text-xl text-on-surface-variant font-medium">Hvala vam! vaša rezervacija je uspešno poslata</p>
+</section>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 w-full">
+<!-- Reservation Details Card -->
+<div class="lg:col-span-7">
+<div class="bg-primary-container text-white p-8 clipped-tr-bl shadow-2xl shadow-primary/20 relative overflow-hidden h-full">
+<!-- Subtle pattern background -->
+<div class="absolute inset-0 opacity-10 pointer-events-none bg-[radial-gradient(circle_at_2px_2px,rgba(255,255,255,0.15)_1px,transparent_0)] bg-[length:24px_24px]"></div>
+<div class="relative z-10 flex flex-col h-full">
+<div class="flex justify-between items-start mb-10">
+<div>
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#72d860] mb-2 block">Detalji termina</span>
+<h2 class="text-3xl font-extrabold tracking-tight">Potvrda zahteva</h2>
+</div>
+<span class="material-symbols-outlined text-4xl text-[#72d860]">confirmation_number</span>
+</div>
+<div class="space-y-8 flex-grow">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim mt-1">calendar_today</span>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-[#c2e8ff] opacity-60 font-bold">Termin</p>
+<p class="text-xl font-bold">18.03.2026. u 14:00</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim mt-1">build</span>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-[#c2e8ff] opacity-60 font-bold">Usluga</p>
+<p class="text-xl font-bold">Vulkanizerska usluga - zamena guma, naziv usluge 2</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim mt-1">location_on</span>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-[#c2e8ff] opacity-60 font-bold">Lokacija</p>
+<p class="text-xl font-bold">Auto servis brzi točak</p>
+</div>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-white/10">
+<button class="bg-[#72d860] text-primary font-black uppercase tracking-widest px-8 py-4 clipped-button flex items-center justify-center gap-3 hover:bg-[#92fa7d] transition-all transform active:scale-95 w-full md:w-auto">
+<span class="material-symbols-outlined">calendar_add_on</span>
+                                Dodaj u kalendar
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Status & Instructions Column -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Status Message Cards -->
+<div class="bg-surface-container-low p-6 border-l-4 border-[#72d860] flex gap-4 shadow-sm">
+<span class="material-symbols-outlined text-secondary shrink-0">mark_email_read</span>
+<p class="text-on-surface-variant font-medium text-sm leading-relaxed">Potvrda rezervacije je poslata na vašu e-mail adresu.</p>
+</div>
+<div class="bg-surface-container-low p-6 border-l-4 border-[#2f7da0] flex gap-4 shadow-sm">
+<span class="material-symbols-outlined text-tertiary-container shrink-0">schedule</span>
+<p class="text-on-surface-variant font-medium text-sm leading-relaxed">Vaš zahtev će biti razmotren, a potvrda će vam stići u roku od 24h. <span class="font-bold text-primary">Neophodno je da dobijete potvrdu pre nego što dođete do servisa.</span></p>
+</div>
+<div class="bg-surface-container-low p-6 border-l-4 border-[#efd567] flex gap-4 shadow-sm">
+<span class="material-symbols-outlined text-[#8a7200] shrink-0">info</span>
+<p class="text-on-surface-variant font-medium text-sm leading-relaxed">Dođite tačno u zakazano vreme kako bismo izbegli gužve</p>
+</div>
+<!-- Navigation Quick Links -->
+<div class="mt-4 flex flex-col gap-3">
+<p class="text-[10px] font-black uppercase tracking-[0.2em] text-on-surface-variant/50 px-2">Sledeći koraci</p>
+<a class="flex items-center justify-between p-4 bg-white hover:bg-surface-container transition-colors font-bold text-primary" href="#">
+<span>Pregled mojih rezervacija</span>
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+<a class="flex items-center justify-between p-4 bg-white hover:bg-surface-container transition-colors font-bold text-primary" href="#">
+<span>Zakaži novi termin</span>
+<span class="material-symbols-outlined">add_circle</span>
+</a>
+<a class="flex items-center justify-between p-4 bg-white hover:bg-surface-container transition-colors font-bold text-primary" href="#">
+<span>Povratak na početnu</span>
+<span class="material-symbols-outlined">home</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Secondary Imagery/Graphic -->
+<div class="w-full mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="relative h-48 group overflow-hidden bg-primary-container clipped-card">
+<img alt="Professional car mechanic inspecting tires" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="close-up of professional automotive mechanic checking tire tread depth in a clean modern workshop with bright technical lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaGJBrBYvkA9S3Ci33Lz4UebAxyfKWGL1cEXKivXDmWkEquzz-ekvnUlzUvLbSB_5EZTUBMWhke36H_ftbh1gbKwjDkX_9n5ZG8tSD78uerxY-1KEBBkZugLVlMOHpKfNF9iGbTFE3ZGPill5__YytiqA-Zi9F2DjHG527ffi3_avgd3ItsXCn1cMxO7XON2g1lEHAUbah6kdUcxd-et1v30dbph2AZI0YqGOrt_-r3lw-I3kCEZZ8yTe_ALlhd1LKauer0aoY8vDr"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-4">
+<span class="text-xs font-bold uppercase tracking-widest text-white">Vrhunska usluga</span>
+</div>
+</div>
+<div class="relative h-48 group overflow-hidden bg-primary-container clipped-card">
+<img alt="Modern automotive service bay" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="wide shot of a high-end futuristic car service station with organized tools and glowing diagnostic equipment screens in dark navy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaSgd7oiXl6HLv-rO9RH5Gz01Gw66GZjd2TMZJKX96S3sTzxmXhIMkZcTx7mBL6VABhcZcrL2ZMEYWKM2vPJKC2No4cY3piLWqlejbRjKvbbA_BPIPeHh3beAoY1lLYRwWwtYr7T7ZCkLlTBDnyrpyEf5ZJnqzzyUus-YgsljgQXBJuQ0-DBxyjhzmgNhWnSS3_KU-H4o3l6xlrwQYjBozrvFoNLK2L_YnJlY_wE5cJWUPPUnRRpkvR3P8ihu8ghV3QDqzYz9XAllh"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-4">
+<span class="text-xs font-bold uppercase tracking-widest text-white">Najmodernija oprema</span>
+</div>
+</div>
+<div class="relative h-48 group overflow-hidden bg-primary-container clipped-card">
+<img alt="Precision automotive engineering" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="detailed close-up of metallic car engine components with blue and green ambient light reflecting off polished steel surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYOJt1IaFVBabkEY4uQmS2lAWu77WoHsgiFqNgj6rhv2ofXmik0iSPpOZvZVZ4f0XN0ZGuop2DH5wI4Qx614HNXwKU-aPa1M76CCDbkzGhsggIfifMItgTsbpsHjWIuboHZR4n7nxCWBxEDu_QnmXVMZvlsDeP49ENx7d7NHpUNhX5tEJ-2HsxytX7ea-7oAojku-Pm52hLv-aNV11U1xeRZ5K5EtlezotIKb65A472FMFPTpE74pycjXJGVMvft26WK1qwy5HCKvg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-4">
+<span class="text-xs font-bold uppercase tracking-widest text-white">Garancija kvaliteta</span>
+</div>
+</div>
+</div>
+</main>
+<!-- SideNavBar (Hidden on desktop confirmation screen to maintain focus, as per UX goals for task-focused pages) -->
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-4 pt-2 bg-[#00222d]/70 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,31,41,0.3)] border-t border-[#c1c7cc]/15">
+<a class="flex flex-col items-center justify-center text-[#c2e8ff] opacity-60 p-2 font-[&#39;Manrope&#39;] text-[10px] font-bold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+            Home
+        </a>
+<a class="flex flex-col items-center justify-center text-[#72d860] bg-[#003949]/50 rounded-none p-2 font-[&#39;Manrope&#39;] text-[10px] font-bold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="event_available">event_available</span>
+            Bookings
+        </a>
+<a class="flex flex-col items-center justify-center text-[#c2e8ff] opacity-60 p-2 font-[&#39;Manrope&#39;] text-[10px] font-bold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="handyman">handyman</span>
+            Tools
+        </a>
+<a class="flex flex-col items-center justify-center text-[#c2e8ff] opacity-60 p-2 font-[&#39;Manrope&#39;] text-[10px] font-bold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+            Profile
+        </a>
+</nav>
+<footer class="mt-auto py-8 bg-primary text-[#c2e8ff]/40 text-center text-xs uppercase tracking-[0.3em] font-bold">
+        © 2024 Auto Konekt • Precision Engineering • Sva prava zadržana
+    </footer>
+</body></html>
